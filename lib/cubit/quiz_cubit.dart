@@ -52,7 +52,7 @@ class QuizCubit extends Cubit<QuizState> {
     return "${state.correctAnswers * QuizState.pointsPerQuestion}/${state.questions.length * QuizState.pointsPerQuestion}";
   }
 
-  void resetQuiz() async {
+  void resetQuiz() {
     emit(InitialQuizState());
     getQuestions();
   }
