@@ -40,7 +40,7 @@ class InitialQuizState extends QuizState {
 
 class Option {
   final String text;
-  final QuestionStatus status;
+  final OptionStatus status;
   const Option({
     required this.text,
     required this.status,
@@ -68,4 +68,4 @@ class Question {
   }
 }
 
-enum QuestionStatus { wrong, correct }
+enum OptionStatus { wrong, correct }

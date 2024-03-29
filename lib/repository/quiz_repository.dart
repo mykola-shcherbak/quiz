@@ -9,20 +9,20 @@ class QuizRepository {
 const Question testQuestion = Question(
   question: "Which of the following Annimal have the ability to fly?",
   options: [
-    Option(text: "Ev", status: QuestionStatus.wrong),
-    Option(text: "Anl", status: QuestionStatus.wrong),
-    Option(text: "Cal", status: QuestionStatus.wrong),
-    Option(text: "Super", status: QuestionStatus.correct),
+    Option(text: "Ev", status: OptionStatus.wrong),
+    Option(text: "Anl", status: OptionStatus.wrong),
+    Option(text: "Cal", status: OptionStatus.wrong),
+    Option(text: "Super", status: OptionStatus.correct),
   ],
 );
 
 const Question testQuestion2 = Question(
   question: "Where would you be if you were standing on the Spanish Steps?",
   options: [
-    Option(text: "China", status: QuestionStatus.wrong),
-    Option(text: "Rome", status: QuestionStatus.wrong),
-    Option(text: "Hong Kong", status: QuestionStatus.correct),
-    Option(text: "England", status: QuestionStatus.wrong),
+    Option(text: "China", status: OptionStatus.wrong),
+    Option(text: "Rome", status: OptionStatus.wrong),
+    Option(text: "Hong Kong", status: OptionStatus.correct),
+    Option(text: "England", status: OptionStatus.wrong),
   ],
 );
 

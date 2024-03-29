@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:quiz/components/option_widget.dart';
 import 'package:quiz/cubit/quiz_cubit.dart';
 import 'package:quiz/cubit/quiz_state.dart';
-import 'package:quiz/utils/question_status_utils.dart';
+import 'package:quiz/utils/option_status_utils.dart';
 
 class OptionsWidget extends StatelessWidget {
   const OptionsWidget({

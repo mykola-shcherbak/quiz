@@ -38,8 +38,8 @@ class QuizCubit extends Cubit<QuizState> {
     }
   }
 
-  void sumCorrectAnswers(QuestionStatus status) async {
-    if (status == QuestionStatus.correct) {
+  void sumCorrectAnswers(OptionStatus status) async {
+    if (status == OptionStatus.correct) {
       emit(state.copyWith(correctAnswers: state.correctAnswers + 1));
     }
   }
