@@ -1,0 +1,14 @@
+# flutter_native_splash-development.yaml
+flutter_native_splash:
+  color: "#A020F0"
+  color_dark: "#A020F0"
+  image: assets/images/quiz.jpg
+  image_dark: assets/images/quiz.jpg
+
+  android_12:
+    color: "#A020F0"
+    color_dark: "#A020F0"
+    image: assets/images/quiz.jpg
+    image_dark: assets/images/quiz.jpg
+
+  web: false
